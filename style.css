@@ -8,7 +8,9 @@ html,body{
 	background-size: 1200px;
 }
 
+
 h1.jumbotron{
+
 	color: green;
 	text-align: center;
 	font-size: 100px;
@@ -23,11 +25,32 @@ h2,p{
 	font-family: "Times New Roman"
 }
 
+.hidden{
+	display:none;
+}
+
 #answers{
 	display: inline-block;
     vertical-align: middle;
 	height:80%;	
 }
+
+#answers  div{
+	display:block;
+	margin: 0 auto;
+}
+
+#start{
+
+	display:block;
+	text-align: center;
+	margin:0 auto;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+}
+
 p{
 	text-align:center;
 	font-size: 30px;
@@ -38,6 +61,7 @@ footer{
 	background-color: plum;
 	height:100%;
 }
+
 #win{
 text-align: center;
 }
@@ -52,3 +76,12 @@ padding: 20px;
 color: lawngreen;
 background-color: seagreen;
 }
+
+#scoreboard{
+	margin: 0 auto;
+	border: 10px solid green;
+	width: 75px;
+	height:40px;
+
+}
+
