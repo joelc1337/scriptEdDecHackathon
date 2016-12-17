@@ -1,7 +1,7 @@
 
 
 $(	function(){
-
+$(".wrapper").hide();
 var stage1 = {
 	question: "You walk up to a trash can.",
 
@@ -99,16 +99,22 @@ var stages = [stage1, stage2, stage3, stage4];
 	// Stage scripts
 
 	function game(answer, stageNum){
-		if(stageNum <= 3){
-		// console.log('sn' + stageNum);
 		stageNum += 1;
+
+		if(stageNum < 3){
+		// console.log('sn' + stageNum);
 		newStage(stages[stageNum]);
 		// pointAdd(stages[stageNum],answer)
+		console.log('look ' + stageNum);
+		}
+		else{
+			switchPage();
+			$("#scoreboard").text(points.toString());
+			console.log('points ' + points);
 		}
 	}
 
 	function newStage(stage){
-		console.log('stage in ns' + stage);
 		// Changes text in question div to match the "stage" question
 		$("#question").text(stage.question);
 
@@ -121,6 +127,11 @@ var stages = [stage1, stage2, stage3, stage4];
 		// pointCalc(answer);
 	}
 
+	function switchPage(){
+		console.log('in switch')
+		$(".gameWrapper").hide();
+		$(".wrapper").show();
+	}	
 	// function pointAdd(){
 	// 	stages[stageNum].answer
 	// }
