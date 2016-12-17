@@ -1,0 +1,2 @@
+# scriptEdDecHackathon
+Environmental Awareness Project
