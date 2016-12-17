@@ -54,8 +54,9 @@ var stage3 = {
 var stage4 = {
 	question: "You are in the middle of eating a sandwich when you see a homeless man",
 
+
 	answerA: {
-		string: "keep walking pass the homeless man(",
+		string: "keep walking past the homeless man",
 		points: 2,
 	},
 	answerB:{
@@ -67,3 +68,4 @@ var stage4 = {
 		points:5 ,
 	},
 }
+
