@@ -1,8 +1,12 @@
 html,body{
 	height:100%;
 	overflow:hidden;
+	
 }
-
+#backImage{
+	background: url("images/firstpage.jpg");
+	background-size: 1200px;
+}
 
 h1.jumbotron{
 	color: green;
