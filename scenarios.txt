@@ -1,20 +1,21 @@
-1.You walk to a trash can what do you do?(water bottle)
+
+1.You walk up to a trash can.
 A place in recycling bin (10)
-B who cares drop it on the floor and walk off (3)
+B who cares drop it on the floor and walk off (0)
 C place it in the garbage can (8)
 
-2.you're leaving your home and you leave your light on. Do you
+2.You are about to leave and the lights are on.
 A leave the light on (4)
 B turn it off (10)
-C close your eyes and pretend you don't see it(4)
+C close your eyes and pretend you don't see it(0)
 
-3. you're washing the dishes and you hear a knock on the door. do you?
- A leave the water running and check the door(5)
- B turn the water off and see who's knocking (10)
- C forget the knock dishes are important(5)
+3.You're washing the dishes and you hear a knock on the door.
+A leave the water running and check the door(0)
+B turn the water off and see who's knocking (10)
+C forget the knock dishes are important(5)
 
- 4. you're eating a half of the sandwich, you plan on throwing out the other half while passing a homless man you...
-   A keep walking pass the homeless man(2)
-   B give the homeless man the other half of your sandwich(10)
-   C throw the other half out (5)
+4.You are in the middle of eating a sandwich when you see a homeless man
+A keep walking pass the homeless man(2)
+B give the homeless man the other half of your sandwich(10)
+C throw the other half out (5)
 

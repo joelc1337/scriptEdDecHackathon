@@ -3,7 +3,6 @@ html,body{
 	overflow:hidden;
 }
 
-
 h1{
 	color: green;
 	text-align: center;
@@ -22,6 +21,11 @@ h2{
     vertical-align: middle;
     float: none;
 	height:80%;	
+}
+
+#answers  div{
+	display:block;
+	margin: 0 auto;
 }
 
 #start{
