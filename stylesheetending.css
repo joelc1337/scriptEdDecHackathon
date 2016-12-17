@@ -1,0 +1,29 @@
+#points {
+	text-align: center;
+}
+
+#winlose {
+	text-align: center;
+}
+
+#landfill{
+	text-align: center;
+}
+
+#scoreboard{
+	margin: 0 auto;
+	border: 10px solid green;
+	width: 75px;
+	height:40px;
+
+}
+
+.won{
+	color: green;
+
+}
+
+.lose{
+	color: red;
+
+}
